@@ -1,6 +1,4 @@
-package org.example;
-
-public class Main {
+public class Utility {
 
     public static boolean shouldWakeUp(boolean isBarking, int hourOfDay) {
         if (hourOfDay < 0 || hourOfDay > 23) {
